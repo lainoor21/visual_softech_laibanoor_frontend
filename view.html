@@ -1,0 +1,36 @@
+<!-- view.html placeholder -->
+ <!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>View Student</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body class="p-3">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <h4>Student Details</h4>
+      <div>
+        <button id="btnBack" class="btn btn-light">Back</button>
+      </div>
+    </div>
+
+    <div class="mt-3">
+      <dl class="row">
+        <dt class="col-sm-2">Name</dt><dd class="col-sm-10" id="vName"></dd>
+        <dt class="col-sm-2">Age</dt><dd class="col-sm-10" id="vAge"></dd>
+        <dt class="col-sm-2">DOB</dt><dd class="col-sm-10" id="vDob"></dd>
+        <dt class="col-sm-2">Address</dt><dd class="col-sm-10" id="vAddress"></dd>
+        <dt class="col-sm-2">Phone</dt><dd class="col-sm-10" id="vPhone"></dd>
+        <dt class="col-sm-2">Subjects</dt><dd class="col-sm-10"><ul id="vSubjects"></ul></dd>
+        <dt class="col-sm-2">Photos</dt><dd class="col-sm-10" id="vPhotos"></dd>
+      </dl>
+    </div>
+  </div>
+
+  <script>initViewPage();</script>
+</body>
+</html>
